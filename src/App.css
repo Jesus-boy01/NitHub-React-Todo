@@ -1,0 +1,97 @@
+#root {
+  width: 70%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App {
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+.header {
+  color: #3B71CA;
+  padding: 1em 0;
+  margin: 0;
+  text-align: center;
+}
+
+.header span {
+  color: #e4a11b;
+}
+
+.user-input {
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 1em;
+  border: none;
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 0.7em;
+}
+
+.add, .get-todos, .finished, .delete {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 1em 1.4em;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+
+}
+
+.add {
+  background-color: #3B71CA;
+  margin-right: 0.5em;
+}
+
+.get-todos {
+  background-color: #e4a11b;
+}
+
+.finished {
+  background-color: #139c49;
+  margin-right: 0.5em;
+}
+
+.delete {
+  background-color: #d1485f;
+}
+
+.task-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+ul {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 0 2em;
+}
+
+ul li {
+  color: #fff;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+label {
+  width: 50%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
